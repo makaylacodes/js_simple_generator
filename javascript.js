@@ -11,7 +11,12 @@ var advice = [
     'Not sure if the milk is spoiled? Take a sip :D',
     'Keep cake moist by eating it all in one sitting.',
     'If you run out of eyeliner, use a sharpie.',
-    'When cutting onions, remember to occaisionally touch your eyes.'
+    'When cutting onions, remember to occasionally touch your eyes.',
+    'Say yes to the first person that asks to marry you.',
+    'Never question your instincts.',
+    'When you have a craving for something sweet and salty, try pickles and ice cream.',
+    'Stock your fridge with groceries before you leave to go on vacation',
+
 ]
 
 

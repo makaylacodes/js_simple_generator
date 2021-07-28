@@ -74,28 +74,31 @@ body{
 @media only screen and (min-width: 680px){
     .quote-wrapper{
         width: 600px;
+        font-weight: bold;
     } 
 } 
 
 @media only screen and (max-width: 680px){
     /* For mobile devices*/
     .quote-wrapper{
-        
+    font-weight: bold;
     border-radius: 20px;
     padding: 2.5rem 3rem;
     width: 100%;
     }
 }
 /*The two above are working for desktop size*/
+
 @media only screen and (max-width: 680px){
     .quoteDisplay{
-    font-size: 1.1rem;
-    width: 300px;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    border: 100px ;
-    padding: -185px;
-    margin: 0px;
-    text-align: left;
+    margin: -50px;
+    padding-bottom: 50px;
     }
 }
+
+@media only screen and (max-width: 680px){
+    .quote-wrapper h3{
+        padding-bottom: 50px;
+    }
+}
+
