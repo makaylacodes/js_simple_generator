@@ -1,3 +1,4 @@
+
 var advice = [
     'You should check todays newspaper for a job ',
     'Always leave a spare key under your doormat',
@@ -14,4 +15,6 @@ var advice = [
 function newQuote () {
     var randomNumber = Math.floor(Math.random() * (advice.length));
     document.getElementById('quoteDisplay').innerHTML = advice[randomNumber];
+    document.getElementById('quoteDisplay' + advice.bold());
 }
+

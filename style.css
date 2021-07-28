@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapi.com/css2?family=poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --pink-lace: #F5CCE8 ;
+    --plum-web: #EC9DED;
+    --middle-purple: #C880B7 ;
+    --pearly-purple: #9F6BA0 ;
+    --dark-purple: #4A2040;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: var(--dark-purple);
+    padding: 1rem;
+}
+
+.quote-wrapper{
+    background-color: rgb(184, 173, 173);
+    border-radius: 180px;
+    padding: 4rem 7rem;
+    -webkit-box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 0, 1);
+    -moz-box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 0, 1);
+    box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 0, 1);
+}
+
+.quote-wrapper h3{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-decoration: underline overline rgb(243, 247, 12);
+}
+
+#quoteDisplay{
+    font-size: 1.2rem;
+    width: 355px;
+    border: 900px rgb(39, 214, 24);
+    padding: 30px;
+    margin: 5px;
+    text-align: center;
+   
+}
+
+.quote-wrapper small{
+    font-weight: 700;
+    padding: 3rem 3rem;
+    color: var(--dark-purple);
+    border-radius: 5px;
+    text-transform: capitalize;
+
+}
+
+.quote-wrapper blockquote{
+    padding: 3rem 3rem;
+    font-weight: 300;
+}
+.quote-wrapper cite{
+    display: block;
+    font-style: normal;
+    margin-bottom: 1rem;
+
+}
+
+#gen-quote-btn{
+    font-size: 1.1rem;
+    border: none;
+    background-color: var(--dark-purple);
+    color: #fff;
+    padding: 0.7rem 1.2rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    outline: 0;
+}
+
+#gen-quote-btn{
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(159, 107, 160, 0.67);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(159, 107, 160, 0.67);
+    -box-shadow: 0px 0px 9px 0px rgba(159, 107, 160, 0.67);
+}
+
+@media screen and (min-width: 680px){
+    .quote-wrapper{
+        width: 600px;
+    }
+    
+} 

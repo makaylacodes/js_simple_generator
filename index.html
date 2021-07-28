@@ -1,21 +1,30 @@
 <!DOCTYPE html>
-
-<html>
-
-    <head>
-        <title>Bad Advice Generator</title>
-    </head>
-
-    <body>
-        <h1>Simple Bad Advice Generator</h1>
-        <div id ="quoteDisplay">
-<!-- Quotes will go here -->
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width-device-width, intial-scale-1.0">
+    <title>Bad Advice Generator</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+    
+<body background="starrygif.gif">
+    <div class = "quote-wrapper">
+        
+        <h3> Bad Advice Generator</h3>
+        
+        <div id = "quoteDisplay">
+            <blockquote id = "advice"></blockquote>
+            
         </div>
+        
+        <cite id = "quote-author"></cite>
 
-        <button onclick ="newQuote()"> New Advice </button>
-
-        <script src = "javascript.js"> </script>
-
-    </body>
+        <div class = "gen-quote-btn">
+            <button onclick = "newQuote()" id = "gen-quote-btn" > New Advice </button>   
+        </div>
+        
+    </div>   
+    <script src = "javascript.js"> </script>  
+</body>
 
 </html>
