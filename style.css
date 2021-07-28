@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapi.com/css2?family=poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root{
-    --pink-lace: #F5CCE8 ;
-    --plum-web: #dbb3db;
-    --middle-purple: hsl(314, 40%, 64%) ;
-    --pearly-purple: #9F6BA0 ;
-    --dark-purple: #F5CCE8;
+    --dark-purple: #4a2040;
 }
 *{
     padding: 0;
@@ -24,28 +20,34 @@ body{
     font-size: 1.2rem;
     background-color: var(--dark-purple);
     padding: 1rem;
+   
+    
 }
 
+
 .quote-wrapper{
-    background-color: rgb(36, 20, 20);
-    border-radius: 180px;
-    padding: 4rem 7rem;
+    background-color: rgb(199, 113, 113);
+    border-radius: 75px;
+    padding: 5rem 7rem;
     -webkit-box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 0, 1);
     -moz-box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 0, 1);
     box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 0, 1);
 }
 
 .quote-wrapper h3{
-    font-size: 2.7rem;
-    margin-bottom: 2rem;
-    text-decoration: underline overline rgb(243, 247, 12);
+    font-size: 1.8rem;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    
 }
 
 #quoteDisplay{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     width: 355px;
-    text-decoration: #f3f3f3;
-    border: 900px rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    border: 900px ;
     padding: 30px;
     margin: 5px;
     text-align: center;
@@ -64,14 +66,20 @@ body{
 }
 
 #gen-quote-btn{
-    -webkit-box-shadow: 0px 0px 9px 0px rgba(159, 107, 160, 0.67);
-    -moz-box-shadow: 0px 0px 9px 0px rgba(159, 107, 160, 0.67);
-    -box-shadow: 0px 0px 9px 0px rgba(159, 107, 160, 0.67);
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(79, 35, 82, 0.67);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(81, 28, 83, 0.67);
+    -box-shadow: 0px 0px 9px 0px rgba(113, 38, 117, 0.67);
 }
 
-@media screen and (min-width: 680px){
+@media only screen and (min-width: 680px){
     .quote-wrapper{
         width: 600px;
-    }
-    
+    } 
 } 
+
+@media only screen and (max-width: 768px){
+    /* For mobile devices*/
+    .quote-wrapper{
+        width: 100%;
+    }
+}
