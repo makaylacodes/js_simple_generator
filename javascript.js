@@ -13,8 +13,10 @@ var advice = [
 
 
 function newQuote () {
+    
     var randomNumber = Math.floor(Math.random() * (advice.length));
     document.getElementById('quoteDisplay').innerHTML = advice[randomNumber];
     document.getElementById('quoteDisplay' + advice.bold());
+  
 }
 

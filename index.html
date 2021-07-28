@@ -2,22 +2,53 @@
 <html lang = "en">
 <head>
     <meta charset = "UTF-8">
-    <meta name = "viewport" content = "width-device-width, intial-scale-1.0">
+    <meta name = "viewport" content = "width=device-width, intial-scale=1.0">
     <title>Bad Advice Generator</title>
     <link rel = "stylesheet" href = "style.css">
-</head>
+
+    <style>
+
+.glow {
+    font-size: 40px;
+    font-family: cursive;
+    color: rgb(43, 139, 194);
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  .quoteDisplay{
+    color: #f3f3f3;
+      font-size: 15px;
+  }
+  
+
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgb(212, 204, 204), 0 0 20px rgb(247, 196, 196), 0 0 30px #8d7ae2, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 30px rgb(229, 126, 233), 0 0 30px #dfd1d8, 0 0 40px #830644, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #0a71c5, 0 0 80px #253488;
+    }
+  }
+  
+    </style>
+
     
 <body background="starrygif.gif">
     <div class = "quote-wrapper">
         
-        <h3> Bad Advice Generator</h3>
-        
-        <div id = "quoteDisplay">
-            <blockquote id = "advice"></blockquote>
+        <body>
+  
+            <h3 class="glow">Bad Advice Generator</h3>
+           
+        <div class = 'quoteDisplay'>
+            <div id = "quoteDisplay">
             
+            </div>
         </div>
         
-        <cite id = "quote-author"></cite>
+      
 
         <div class = "gen-quote-btn">
             <button onclick = "newQuote()" id = "gen-quote-btn" > New Advice </button>   
@@ -26,5 +57,11 @@
     </div>   
     <script src = "javascript.js"> </script>  
 </body>
+
+
+  
+ 
+</head>
+  
 
 </html>
